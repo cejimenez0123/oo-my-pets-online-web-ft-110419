@@ -1,9 +1,9 @@
 class Owner
   # code goes here
   attr_writer
-  def initialize(name,species)
+  def initialize(name)
     @name=name
-    @species=species
+    
   end
   def name
     @name
