@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_writer
+  attr_writer :species
   def initialize(name)
     @name=name
 
@@ -8,5 +8,8 @@ class Owner
   def name
     @name
   end
-
+  def species
+    @species
+  end
+    
 end
