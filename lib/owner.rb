@@ -10,7 +10,7 @@ class Owner
     @name
   end
   def species
-    @species
+    @species=species
   end
 
 end
