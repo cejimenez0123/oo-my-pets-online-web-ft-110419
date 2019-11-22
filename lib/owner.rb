@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_writer :name
+  attr_writer 
   def initialize(name)
     @name=name
   end
