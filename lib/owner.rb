@@ -3,7 +3,7 @@ class Owner
   attr_writer
   def initialize(name)
     @name=name
-    
+
   end
   def name
     @name
